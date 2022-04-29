@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.title {
+  @apply text-gray-500;
+}
+.icon {
+  @apply fill-gray-500;
+}
+.button-primary {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded min-w-[150px];
+}
+.title-secondary {
+  @apply text-gray-700 text-2xl;
+}
+.button-secondary {
+  @apply button-primary bg-red-600 !important;
+}

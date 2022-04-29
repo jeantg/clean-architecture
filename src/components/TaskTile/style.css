@@ -1,0 +1,12 @@
+.tasktile-container {
+  @apply h-[130px] border-[1px]  border-l-8  shadow-lg shadow-cyan-400/10 mx-4 p-3 flex flex-col m-4;
+}
+.tasktile-todo {
+  @apply tasktile-container border-cyan-400 !important;
+}
+.tasktile-working {
+  @apply tasktile-container border-orange-500 !important;
+}
+.tasktile-done {
+  @apply tasktile-container border-green-500 !important;
+}

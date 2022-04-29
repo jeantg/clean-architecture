@@ -1,0 +1,3 @@
+.select-menu-list {
+  @apply absolute shadow top-8 z-0 w-full left-0 rounded  overflow-y-auto;
+}

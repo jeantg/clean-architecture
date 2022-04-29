@@ -1,0 +1,14 @@
+.taskboard-container {
+  @apply border-r-4  h-screen w-full max-w-[300px];
+}
+.taskboard-container:first-child {
+  @apply border-l-4;
+}
+.taskboard-title {
+  @apply text-gray-500;
+}
+
+.taskboard-header {
+  @apply flex items-center;
+  margin: 0.5rem;
+}
